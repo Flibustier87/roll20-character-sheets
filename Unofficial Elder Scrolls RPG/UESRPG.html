@@ -315,16 +315,16 @@
 						<td class="sheet-skillname">Acrobatics</td>
 						<td>
 						<select name="attr_acro">
-                                <option value="20">Untrained</option>
+                                <option value="-10">Untrained</option>
                                 <option value="0">Novice</option>
-                                <option value="-10">Apprentice</option>
-                                <option value="-20">Journeyman</option>
-                                <option value="-30">Adept</option>
-                                <option value="-40">Expert</option>
-                                <option value="-50">Master</option>
+                                <option value="+10">Apprentice</option>
+                                <option value="+20">Journeyman</option>
+                                <option value="+30">Adept</option>
+                                <option value="+40">Expert</option>
+                                <option value="+50">Master</option>
                         </select>
                         </td>
-                        <td><button type="roll" value="&{template:basic} {{name=Acrobatics}} {{rng_attack=}} {{damage=}}  {{spell_description=[[(1d100cs@{lucky0}cs@{lucky1}cs@{lucky2}cs@{lucky3}cs@{lucky4}cf@{unlucky0}cf@{unlucky1}cf@{unlucky2}cf@{unlucky3}cf@{unlucky4})+@{acro}]] }}                       "/></td>					
+                        <td><button type="roll" value="&{template:basic} {{name=Acrobatics}} {{rng_attack=}} {{damage=}}  {{spell_description=[[(1d100cs@{lucky0}cs@{lucky1}cs@{lucky2}cs@{lucky3}cs@{lucky4}cf@{unlucky0}cf@{unlucky1}cf@{unlucky2}cf@{unlucky3}cf@{unlucky4})]] }}                       "/></td>					
 					</tr>
 					<tr>
 						<td>Alchemy</td>
